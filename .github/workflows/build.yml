@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     name: Build the console app
-    runs-on: macos-13
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout source code
