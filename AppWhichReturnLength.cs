@@ -11,7 +11,7 @@ while (repeat)
 
     int theFirstParameterLength = theFirstParameter.Length;
     
-    Console.Write($"You have entered the value <{theFirstParameter}> with the length of " +
+    Console.Write($"You have entered the value [{theFirstParameter}] with the length of " +
         $"{theFirstParameterLength} {(theFirstParameterLength > 1 ? "characters" : "character")}.");
     Console.WriteLine();
 
